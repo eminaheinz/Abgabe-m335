@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.Recipes.Pasta"
+             Title="Pasta">
+    <ScrollView>
+        <StackLayout Margin="20">
+            <Image Source="pastamenu.png" Aspect="AspectFill" HeightRequest="200" />
+            <Label x:Name="headline" FontSize="25" FontAttributes="Bold" Margin="10,0,10,0" />
+            <Label x:Name="numPeople" FontSize="25" Margin="10,0,10,0" />
+            <Label x:Name="duration" FontSize="25" Margin="10,0,10,0" />
+
+            <Label Text="Zutaten:" FontSize="22" FontAttributes="Bold" Margin="10,20,10,0" />
+            <Label x:Name="ingredientsLabel" FontSize="20" Margin="10,0,10,0" />
+
+            <Label Text="Anleitung:" FontSize="22" FontAttributes="Bold" Margin="10,20,10,0" />
+            <Label x:Name="instructionsLabel" FontSize="20" Margin="10,0,10,0" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
